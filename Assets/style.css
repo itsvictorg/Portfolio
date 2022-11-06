@@ -1,0 +1,162 @@
+:root{
+    --font-color: beige;
+}
+
+html{
+    background-color: whitesmoke;
+    font-family: arial;
+    background-color: black;
+    color: var(--font-color);
+    margin: 0;
+    height: 100%;
+}
+
+#head-nav{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid gray;
+}
+
+#head-nav > ul{
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+#head-nav > ul a{
+    color: var(--font-color);
+    text-decoration: none;
+    
+    
+}
+
+#head-nav > ul a:hover{
+    color:red;
+    cursor: pointer;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--font-color);
+    
+}
+
+#self-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:20%;
+    margin-left: 30px;
+    margin-right:20px;
+    border-radius: 50%;
+    
+}
+
+#head{
+    height:100vh;
+}
+
+#name-and-bio{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left:20px;
+    margin-right:50px;
+    font-size: 120%;
+    color: var(--font-color);
+    
+}
+
+
+#contact-me{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    font-weight: bold;;
+    border-radius: 5px;
+    background-color:gray;
+    height: 30px;
+    color: beige;
+    transition-duration: 0.4s;
+    max-width: 30%;
+}
+
+button:hover{
+    background-color: gainsboro;
+    color:red;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 200%;
+}
+
+#About{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid beige; 
+    background-color: #2d2d2c;
+    height: 100vh;
+    
+}
+
+#about-me{
+    white-space: pre-wrap;
+    overflow-y: auto;
+    min-width: 0;
+    text-align: center;
+    border: 4px solid black;
+    font-size: 120%;
+    margin-left: 50px;
+    padding:4px;
+    margin-right: 50px;
+    line-height: 1.5;
+
+}
+
+#Projects{
+    border-top: 1px solid beige;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    height: 100vh;
+}
+
+#Contact{
+    border-top: 1px solid beige; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2d2d2c;
+    height: 100vh;
+    
+}
+
+#Contact ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#Contact ul li{
+    list-style: none;
+    margin-left: -35px;
+    text-align: center;
+}
+   
